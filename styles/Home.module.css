@@ -7,13 +7,35 @@
   align-items: center;
 }
 
+.navbar {
+  width: 100vw;
+  overflow: hidden;
+  padding-left: 5%;
+  padding-top: 20px;
+}
+
+.navbar a {
+  font-size: 30px;
+  color: blue;
+  font-weight: bolder;
+  float: left;
+}
+
+.navbar img {
+  width: 40px;
+}
+
 .main {
-  padding: 5rem 0;
   flex: 1;
   display: flex;
+  overflow: hidden;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.description {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .footer {
@@ -21,18 +43,13 @@
   height: 100px;
   border-top: 1px solid #eaeaea;
   display: flex;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
 }
 
 .footer img {
   margin-left: 0.5rem;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .title a {
@@ -57,18 +74,9 @@
   text-align: center;
 }
 
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.image {
+	width: 150px;
+  float: left;
 }
 
 .grid {
@@ -76,13 +84,13 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  width: 100vw;
   margin-top: 3rem;
 }
 
 .card {
   margin: 1rem;
-  flex-basis: 45%;
+  flex-basis: 90%;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -102,16 +110,24 @@
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  float: left;
+  width: 80%;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .logo {
-  height: 1em;
+  height: 2em;
 }
 
 @media (max-width: 600px) {

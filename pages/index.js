@@ -1,65 +1,56 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import mongoose from 'mongoose'
+import Articles from '../models/article'
+import React, { Component } from 'react'
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+export default class Home extends Component {
+	static async getInitialProps() {
+		try {
+			mongoose.connect('mongodb+srv://vineelsai:vineelsai73@cluster0.pkzmx.mongodb.net/blog?retryWrites=true&w=majority', {
+				useNewUrlParser: true,
+				useUnifiedTopology: true
+			}, () => console.log("connected"))
+		} catch (error) {
+			console.log(error)
+		}
+		const articles = await Articles.find()
+		return { articles: articles }
+	}
+	render() {
+		return (
+			<div className={styles.container}>
+				<Head>
+					<title>Vineel Sai | Blog</title>
+					<link rel="icon" href="/logo.png" />
+				</Head>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+				<nav className={styles.navbar}>
+					<a href="/">
+						<img src={"/logo.png"}></img>
+					</a>
+				</nav>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+				<main className={styles.main}>
+					<div className={styles.grid}>
+						{
+							this.props.articles.map(article => (
+								<a href={"post/" + article.url} className={styles.card} key={article._id}>
+									<img src="/logo.png" className={styles.image}></img>
+									<h3>{article.title}</h3>
+									<p>{article.description.substring(0, 100)}</p>
+								</a>
+							))
+						}
+					</div>
+				</main>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+				<footer className={styles.footer}>
+					Created By
+					<img src="/logo.png" alt="Logo" className={styles.logo} />
+				</footer>
+			</div >
+		)
+	}
 }
