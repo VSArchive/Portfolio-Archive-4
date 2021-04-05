@@ -10,7 +10,7 @@ const Post = ({ article }) => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Vineel Sai | Blog</title>
+                <title>{article.title}</title>
                 <link rel="icon" href="/logo.png" />
             </Head>
 
@@ -35,7 +35,7 @@ const Post = ({ article }) => {
 
 Post.getInitialProps = async (context) => {
     try {
-        mongoose.connect('mongodb+srv://vineelsai:vineelsai73@cluster0.pkzmx.mongodb.net/blog?retryWrites=true&w=majority', {
+        mongoose.connect(process.env.mongodb, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         }, () => console.log("connected"))
