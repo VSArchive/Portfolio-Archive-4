@@ -3,13 +3,17 @@ import mongoose from "mongoose"
 const articleSchema = new mongoose.Schema({
     url: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     title: {
         type: String,
         required: true
     },
     description: {
+        type: String
+    },
+    longDescription: {
         type: String
     },
     createdAt: {

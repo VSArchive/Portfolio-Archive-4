@@ -1,12 +1,10 @@
 import Head from 'next/head'
-import { useRouter } from 'next/router'
 import mongoose from 'mongoose'
 import styles from '../../styles/Home.module.css'
 import Articles from '../../models/article'
+import marked from 'marked'
 
 const Post = ({ article }) => {
-    const router = useRouter()
-    const url = router.query
     return (
         <div className={styles.container}>
             <Head>
@@ -22,7 +20,9 @@ const Post = ({ article }) => {
 
             <h1>{article.title}</h1>
             <main className={styles.main}>
-                <p className={styles.description}>{article.longDescription}</p>
+                <div dangerouslySetInnerHTML={{
+                    __html: marked(article.longDescription)
+                }} className={styles.description}></div>
             </main>
 
             <footer className={styles.footer}>
@@ -43,8 +43,7 @@ Post.getInitialProps = async (context) => {
         console.log(error)
     }
 
-    const articles = await Articles.where('url').equals("test")
-    console.log(Post.url)
+    const articles = await Articles.where('url').equals(context.query.url)
     return { article: articles[0] }
 }
 
