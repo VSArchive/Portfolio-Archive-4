@@ -6,6 +6,7 @@ export default function handler(req, res) {
             let article = new Article({
                 title: req.body.title,
                 url: req.body.url,
+                imageUrl: req.body.imageUrl,
                 description: req.body.description,
                 longDescription: req.body.content
             })

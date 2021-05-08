@@ -76,6 +76,9 @@
 
 .image {
 	width: 150px;
+  height: 130px;
+  object-fit: contain;
+  object-position: center;
   float: left;
 }
 
@@ -123,7 +126,7 @@
   float: left;
   width: 80%;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 0;
 }
 
 .logo {
@@ -148,5 +151,8 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .image {
+    width: 100%;
   }
 }

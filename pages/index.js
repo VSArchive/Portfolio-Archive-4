@@ -22,7 +22,7 @@ const Home = ({ articles }) => {
 					{
 						articles.map(article => (
 							<a href={"post/" + article.url} className={styles.card} key={article._id}>
-								<img src="/logo.png" className={styles.image}></img>
+								<img src={article.imageUrl} className={styles.image}></img>
 								<h3>{article.title}</h3>
 								<p>{article.description.substring(0, 100)}</p>
 							</a>
