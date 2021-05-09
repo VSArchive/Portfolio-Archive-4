@@ -14,11 +14,16 @@
   padding-top: 20px;
 }
 
-.navbar a {
+.navbarLogo {
   font-size: 30px;
   color: blue;
   font-weight: bolder;
   float: left;
+}
+
+.navbarItems {
+  float: right;
+  margin-right: 5%;
 }
 
 .navbar img {
@@ -153,6 +158,14 @@
     flex-direction: column;
   }
   .image {
+    width: 100%;
+  }
+
+  .card h3{
+    width: 100%;
+  }
+
+  .card p{
     width: 100%;
   }
 }

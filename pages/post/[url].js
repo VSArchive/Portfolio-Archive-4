@@ -2,7 +2,15 @@ import Head from 'next/head'
 import mongoose from 'mongoose'
 import styles from '../../styles/Home.module.css'
 import Articles from '../../models/article'
-import marked from 'marked'
+var md = require('markdown-it')({
+    html: true,
+    linkify: true,
+    typographer: true
+})
+var emoji = require('markdown-it-emoji')
+
+md.use(emoji)
+
 
 const Post = ({ article }) => {
     return (
@@ -21,7 +29,7 @@ const Post = ({ article }) => {
             <h1>{article.title}</h1>
             <main className={styles.main}>
                 <div dangerouslySetInnerHTML={{
-                    __html: marked(article.longDescription)
+                    __html: md.render(article.longDescription)
                 }} className={styles.description}></div>
             </main>
 
