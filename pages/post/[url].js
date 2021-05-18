@@ -2,17 +2,14 @@ import Head from 'next/head'
 import mongoose from 'mongoose'
 import styles from '../../styles/Home.module.css'
 import Articles from '../../models/article'
-var md = require('markdown-it')({
-    html: true,
-    linkify: true,
-    typographer: true
-})
-var emoji = require('markdown-it-emoji')
-
-md.use(emoji)
-
 
 const Post = ({ article }) => {
+
+    var showdown = require('showdown'),
+        converter = new showdown.Converter({ tables: true, tasklists: true, tablesHeaderId: true, strikethrough: true, simplifiedAutoLink: true, ghCompatibleHeaderId: true, emoji: true }),
+        text = article.longDescription,
+        html = converter.makeHtml(text);
+
     return (
         <div className={styles.container}>
             <Head>
@@ -26,10 +23,10 @@ const Post = ({ article }) => {
                 </a>
             </nav>
 
-            <h1>{article.title}</h1>
+            <h1 className={styles.title}>{article.title}</h1>
             <main className={styles.main}>
                 <div dangerouslySetInnerHTML={{
-                    __html: md.render(article.longDescription)
+                    __html: html
                 }} className={styles.description}></div>
             </main>
 

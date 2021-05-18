@@ -52,7 +52,7 @@ Home.getInitialProps = async (context) => {
 	} catch (error) {
 		console.log(error)
 	}
-	const articles = await Articles.find()
+	const articles = await Articles.find().sort({ createdAt: "desc" })
 	return { articles: articles }
 }
 
