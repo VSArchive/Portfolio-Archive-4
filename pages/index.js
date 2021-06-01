@@ -12,16 +12,11 @@ const Home = ({ articles }) => {
 				<link rel="icon" href="/logo.png" />
 			</Head>
 
-			<nav className={styles.navbar}>
-				<a className={styles.navbarLogo} href="/">
-					<img src={"/logo.png"} alt="logo"></img>
-				</a>
-				<a className={styles.navbarItems} href="https://github.com/vineelsai26/Blog">
-					<img src={"/github.png"} alt="github"></img>
-				</a>
-			</nav>
-
 			<main className={styles.main}>
+				<div className={styles.sidebar}>
+					<img className={styles.profileImg} src="/profile.jpg"></img>
+					<a className={styles.name}>Vineel Sai</a>
+				</div>
 				<div className={styles.grid}>
 					{
 						articles.map(article => (
@@ -47,7 +42,8 @@ Home.getInitialProps = async (context) => {
 	try {
 		mongoose.connect(process.env.mongodb, {
 			useNewUrlParser: true,
-			useUnifiedTopology: true
+			useUnifiedTopology: true,
+			useCreateIndexes: true
 		}, () => console.log("connected"))
 	} catch (error) {
 		console.log(error)

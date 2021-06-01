@@ -20,7 +20,7 @@ const New = () => {
                     <form action="/api/publish" method="POST">
                         <input id="title" name="title" className={styles.textBox} placeholder="Title" required></input>
                         <input id="url" name="url" className={styles.textBox} placeholder="Url" required></input>
-                        <input id="imageUrl" name="imageUrl" className={styles.textBox} placeholder="Image Url" required></input>
+                        <input id="imageUrl" name="imageUrl" className={styles.textBox} placeholder="Image  Url" required></input>
                         <textarea id="description" name="description" className={styles.textBox} rows={5} placeholder="Description" required></textarea>
                         <textarea id="content" name="content" className={styles.textBox} rows={20} placeholder="Content" required></textarea>
                         <input id="password" name="password" type="password" className={styles.textBox} placeholder="Password" required></input>

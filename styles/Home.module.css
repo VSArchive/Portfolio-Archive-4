@@ -30,12 +30,45 @@
   width: 40px;
 }
 
+.sidebar {
+  position: fixed;
+  display: block;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  background-color: #040B14;
+  padding: 30px;
+  width: 300px;
+  height: 100vh;
+}
+
+.profileImg{
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.name{
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  font-weight: bolder;
+  font-size: x-large;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main {
   flex: 1;
   display: flex;
   overflow: hidden;
   flex-direction: column;
-  align-items: center;
 }
 
 .footer {
@@ -73,7 +106,8 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 75%;
+  margin-left: 20%;
   margin-top: 3rem;
 }
 
