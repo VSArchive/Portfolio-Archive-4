@@ -42,7 +42,8 @@ Post.getInitialProps = async (context) => {
     try {
         mongoose.connect(process.env.mongodb, {
             useNewUrlParser: true,
-            useUnifiedTopology: true
+            useUnifiedTopology: true,
+            useCreateIndexes: true
         }, () => console.log("connected"))
     } catch (error) {
         console.log(error)

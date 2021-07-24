@@ -16,8 +16,18 @@ const Home = ({ articles }) => {
 				<div className={styles.sidebar}>
 					<img className={styles.profileImg} src="/profile.jpg"></img>
 					<a className={styles.name}>Vineel Sai</a>
+					{/* <a href="mailto:vineelsai26@gmail.com" className={styles.email}>vineelsai26@gmail.com</a> */}
+					<div className={styles.ldiv}>
+						<a href="#home" className={styles.nav}>Home</a>
+						<a href="#about" className={styles.nav}>About</a>
+						<a href="#posts" className={styles.nav}>Posts</a>
+					</div>
 				</div>
-				<div className={styles.grid}>
+				<div id="home" className={styles.parallax}>
+				</div>
+				<div id="about">
+				</div>
+				<div id="posts" className={styles.grid}>
 					{
 						articles.map(article => (
 							<a href={"post/" + article.url} className={styles.card} key={article._id}>
