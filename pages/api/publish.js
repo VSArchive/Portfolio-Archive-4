@@ -10,11 +10,11 @@ export default function handler(req, res) {
                 description: req.body.description,
                 longDescription: req.body.content
             })
-            article.save(function (err) {
+            await article.save(function (err) {
                 if (err) {
                     return handleError(err)
                 } else {
-                    res.send("Success")
+                    res.redirect('/post/' + req.body.url)
                 }
             })
 
