@@ -10,7 +10,7 @@ export default function handler(req, res) {
                 description: req.body.description,
                 longDescription: req.body.content
             })
-            await article.save(function (err) {
+            article.save(function (err) {
                 if (err) {
                     return handleError(err)
                 } else {
