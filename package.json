@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "mongoose": "^5.12.2",
-    "next": "^11.1.1"
+    "next": "^11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "showdown": "^1.9.1"
