@@ -3,7 +3,8 @@ import styles from '../styles/Home.module.css'
 import mongoose from 'mongoose'
 import Articles from '../models/article'
 
-const Home = ({ articles }) => {
+const Home = (props) => {
+	const { articles } = props
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -48,7 +49,7 @@ const Home = ({ articles }) => {
 	)
 }
 
-Home.getInitialProps = async (context) => {
+export async function getServerSideProps() {
 	try {
 		mongoose.connect(process.env.mongodb, {
 			useNewUrlParser: true,
@@ -59,7 +60,8 @@ Home.getInitialProps = async (context) => {
 		console.log(error)
 	}
 	const articles = await Articles.find().sort({ createdAt: "desc" })
-	return { articles: articles }
+	console.log(articles)
+	return { props: articles }
 }
 
 export default Home
