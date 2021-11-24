@@ -1,0 +1,18 @@
+[[main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = 1
+
+[[main]]
+    name = "Github"
+    url = "https://github.com/vineelsai26"
+    hrefTargetBlank = true
+    weight = 2
+
+[[main]]
+    name = "Website"
+    url = "https://vineelsai.com"
+    hrefTargetBlank = true
+    weight = 3
