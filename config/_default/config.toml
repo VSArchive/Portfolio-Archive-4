@@ -1,7 +1,6 @@
 baseURL = "https://blog.vineelsai.com/"
 title = "Vineel Sai Blog"
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
-disableKinds = ["sitemap"]
 
 defaultContentLanguage = "en" # Default language to use (if you setup multilingual)
 defaultContentLanguageInSubdir = false # baseURL/en/, baseURL/kr/ ...
@@ -10,14 +9,14 @@ hasCJKLanguage = false # Set `true` for Chinese/Japanese/Korean languages.
 summaryLength = 70 # The length of a post description on a list page.
 buildFuture = true # if true, we can use future date for talks page
 
-copyright = "©{year}, All Rights Reserved" # copyright symbol: $copy; current year: {year}
+copyright = "&copy;{year}, All Rights Reserved"
 timeout = 10000
 enableEmoji = true
 paginate = 13 # Number of items per page in paginated lists.
 rssLimit = 100
 
 enableGitInfo = true # When true, the modified date will appear on a summary and single page. Since GitHub info needs to be fetched, this feature will slow down to build depending on a page number you have
-googleAnalytics = ""
+googleAnalytics = "G-BC5KE4HH1B"
 
 [markup]
   [markup.goldmark]
@@ -31,12 +30,19 @@ googleAnalytics = ""
     lineNumbersInTable = true
     noClasses = false
   [markup.tableOfContents]
-    endLevel = 3
+    endLevel = 4
     ordered = false
     startLevel = 2
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "SearchIndex"]
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
 
 [taxonomies]
   category = "categories"
