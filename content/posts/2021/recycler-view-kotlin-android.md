@@ -5,9 +5,9 @@ date: 2021-11-25T13:00:00
 url: /recycler-view-kotlin-android/
 image: /images/thumbnails/recycler-view-kotlin.png
 categories:
-  - Android Studio
+  - Android
 tags:
-  - Android Studio
+  - Android
   - Kotlin
   - RecyclerView
 ---

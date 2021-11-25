@@ -12,7 +12,7 @@
     weight = 2
 
 [[main]]
-    name = "Website"
-    url = "https://vineelsai.com"
+    name = "Resume"
+    url = "/resume/resume.pdf"
     hrefTargetBlank = true
     weight = 3
