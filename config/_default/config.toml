@@ -16,7 +16,7 @@ paginate = 13 # Number of items per page in paginated lists.
 rssLimit = 100
 
 enableGitInfo = true # When true, the modified date will appear on a summary and single page. Since GitHub info needs to be fetched, this feature will slow down to build depending on a page number you have
-googleAnalytics = "G-BC5KE4HH1B"
+googleAnalytics = "G-WLKQWC1JPQ"
 
 [markup]
   [markup.goldmark]
