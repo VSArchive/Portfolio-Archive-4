@@ -2,7 +2,7 @@
 title: "Make your own vscode theme from scratch"
 
 date: 2021-11-26T10:00:00
-url: /make-your-own-vscode-theme/
+url: /posts/make-your-own-vscode-theme/
 image: /images/thumbnails/vscode.png
 categories:
   - vscode

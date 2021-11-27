@@ -2,7 +2,7 @@
 title: "Flutter VS React Native in 2021"
 
 date: 2021-11-25T15:00:00
-url: /flutter-vs-react-native-mobile-development/
+url: /posts/flutter-vs-react-native-mobile-development/
 image: /images/thumbnails/flutter-vs-react-native.png
 categories:
   - Mobile

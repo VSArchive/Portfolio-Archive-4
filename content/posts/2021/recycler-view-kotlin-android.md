@@ -2,7 +2,7 @@
 title: "Recycler View in Kotlin"
 
 date: 2021-11-25T13:00:00
-url: /recycler-view-kotlin-android/
+url: /posts/recycler-view-kotlin-android/
 image: /images/thumbnails/recycler-view-kotlin.png
 categories:
   - Android

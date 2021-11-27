@@ -16,3 +16,9 @@
     url = "/resume/resume.pdf"
     hrefTargetBlank = true
     weight = 3
+
+[[main]]
+    name = "RSS"
+    url = "/index.xml"
+    hrefTargetBlank = true
+    weight = 4

@@ -2,7 +2,7 @@
 title: "Install Android Studio on Windows"
 
 date: 2021-11-25T12:30:00
-url: /install-android-studio-on-windows/
+url: /posts/install-android-studio-on-windows/
 image: /images/thumbnails/android-studio.png
 categories:
   - Android Studio

@@ -2,7 +2,7 @@
 title: "Native vs Cross-Platform Mobile Development in 2021"
 
 date: 2021-11-25T15:00:00
-url: /native-vs-cross-platform-mobile-development/
+url: /posts/native-vs-cross-platform-mobile-development/
 image: /images/thumbnails/native-vs-cross-platform-mobile-development.png
 categories:
   - Mobile

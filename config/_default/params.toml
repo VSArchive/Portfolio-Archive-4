@@ -7,7 +7,7 @@ custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = "/logo.png"
 
-themeOptions = ["light", "dark", "hacker", "solarized", "kimbie"] # select options for site color theme
+themeOptions = ["light", "dark"] # select options for site color theme
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "page"] # not allowed page types in home page. type can be set in front matter or default to folder name.
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "page"] # not allowed page types in home page sidebar(recent post titles).
 notAllowedTypesInArchive = ["about", "talks", "showcase", "page"] # not allowed page types in archive page
@@ -20,7 +20,7 @@ hideSingleContentsWhenJSDisabled = false
 minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 
 # appbar
-enableAppbarSearchIcon = false
+enableAppbarSearchIcon = true
 enableAppbarLangIcon = false
 
 # header
@@ -106,9 +106,9 @@ busuanziSitePV = true
 busuanziPagePV = true
 
 # rss
-updatePeriod = "" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
+updatePeriod = "daily" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
 updateFrequency = ""
-fullContents = false
+fullContents = true
 
 # comment
 enableComment = true
