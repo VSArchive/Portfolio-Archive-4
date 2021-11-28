@@ -13,7 +13,7 @@ tags:
 
 DigitalOcean Droplets are Linux-based virtual machines (VMs) that run on top of virtualized hardware. Each Droplet you create is a new server you can use, either standalone or as part of a larger, cloud-based infrastructure.
 
-This guide assumes you already have a DigitalOcean account created and have billing setup.
+This guide assumes you already have a DigitalOcean account, If not you can create one [here.](https://m.do.co/c/96aa4c93885e)
 
 ### Create a droplet
 
