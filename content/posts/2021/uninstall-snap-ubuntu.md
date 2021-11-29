@@ -12,7 +12,7 @@ tags:
   - Ubuntu
 ---
 
-Snap is a packaging format made by canonical to use in ubuntu and other linux distros but there are problems with snaps as they are slow compared to native binaries and consume a lot of disk space and the server side of snapcraft is proprietary, but since its their own technology canonical is pushing it too much over other solutions in ubuntu, so for any of the following reasons if you want to uninstall snaps from your system just follow along.
+Snap is a packaging format made by canonical to use in [Ubuntu](https://ubuntu.com) and other linux distros but there are problems with snaps as they are slow compared to native binaries and consume a lot of disk space and the server side of [snapcraft](https://snapcraft.io) is proprietary, but since its their own technology canonical is pushing it too much over other solutions in [Ubuntu](https://ubuntu.com), so for any of the following reasons if you want to uninstall snaps from your system just follow along.
 
 ### Uninstall Snaps
 

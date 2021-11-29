@@ -16,15 +16,15 @@ tags:
 
 ![Mobile](/images/2021/flutter-vs-react-native/flutter-vs-react-native.jpg)
 
-If you want to make a cross platform app that works on both Android & IOS then you have mainly two options to choose from Flutter and React Native. Both of them are great tools to develop cross platform apps but there are some differences between them and different scenarios where you should choose one over the other we'll have a look at both of them and then we'll talk about which one is the best for you in this article.
+If you want to make a cross platform app that works on both Android & IOS then you have mainly two options to choose from [Flutter](https://flutter.dev) and [React Native](https://reactnative.dev). Both of them are great tools to develop cross platform apps but there are some differences between them and different scenarios where you should choose one over the other we'll have a look at both of them and then we'll talk about which one is the best for you in this article.
 
-### Flutter
+### [Flutter](https://flutter.dev)
 
 ![Flutter](/images/2021/flutter-vs-react-native/flutter.png)
 
-Flutter is an open source framework developed by Google for building applications for Android, IOS, Linux, Mac, Windows and Web. Flutter uses Dart as its programming language. Dart is a relatively new language and it is an object-oriented, class-based, garbage-collected language with C language like syntax. Flutter uses a custom graphics library called Skia to render the apps UI, it renders the screen pixel by pixel so you get a lot of control over the look and feel of the app and also is very efficient and fast. The views in flutter are called widgets and you can create your own widgets or download from the internet and use them in your app.
+[Flutter](https://flutter.dev) is an open source framework developed by Google for building applications for Android, IOS, Linux, Mac, Windows and Web. [Flutter](https://flutter.dev) uses Dart as its programming language. Dart is a relatively new language and it is an object-oriented, class-based, garbage-collected language with C language like syntax. [Flutter](https://flutter.dev) uses a custom graphics library called Skia to render the apps UI, it renders the screen pixel by pixel so you get a lot of control over the look and feel of the app and also is very efficient and fast. The views in [Flutter](https://flutter.dev) are called widgets and you can create your own widgets or download from the internet and use them in your app.
 
-#### Who are using Flutter
+#### Who are using [Flutter](https://flutter.dev)
 
 Before you choose a platform you might want to know who else are using them to get an overall idea.
 
@@ -42,29 +42,29 @@ Before you choose a platform you might want to know who else are using them to g
 - Dream11
 - Toyota
 
-#### Pros of Flutter
+#### Pros of [Flutter](https://flutter.dev)
 
-- Has many 1st party widgets and libraries compared to React Native.
+- Has many 1st party widgets and libraries compared to [React Native](https://reactnative.dev).
 
-- Less code to write compared to React Native.
+- Less code to write compared to [React Native](https://reactnative.dev).
 
 - Looks the same on all platforms.
 
 #### Cons of Native Development
 
-- Uses Dart as its programming language witch is a new language and doesn't have a lot of use other than for flutter.
+- Uses Dart as its programming language witch is a new language and doesn't have a lot of use other than for [Flutter](https://flutter.dev).
 
 - Lack of enough 3rd party widgets and libraries.
 
-- Small community compared to react native.
+- Small community compared to [React Native](https://reactnative.dev).
 
-### React Native
+### [React Native](https://reactnative.dev)
 
 ![React](/images/2021/flutter-vs-react-native/react.png)
 
-React Native is an open source framework developed by Facebook it uses JavaScript as its programming language and based on react framework. The working principles of React Native are virtually identical to React except that React Native does not manipulate the DOM via the Virtual DOM. It runs in a background process directly on the end-device and communicates with the native platform via serialized data over an asynchronous and batched bridge. React components wrap existing native code and interact with native APIs via React’s declarative UI paradigm and JavaScript.While React Native styling has a similar syntax to CSS, it does not use HTML or CSS. Instead, messages from the JavaScript thread are used to manipulate native views.
+[React Native](https://reactnative.dev) is an open source framework developed by Facebook it uses JavaScript as its programming language and based on react framework. The working principles of [React Native](https://reactnative.dev) are virtually identical to React except that [React Native](https://reactnative.dev) does not manipulate the DOM via the Virtual DOM. It runs in a background process directly on the end-device and communicates with the native platform via serialized data over an asynchronous and batched bridge. React components wrap existing native code and interact with native APIs via React’s declarative UI paradigm and JavaScript.While [React Native](https://reactnative.dev) styling has a similar syntax to CSS, it does not use HTML or CSS. Instead, messages from the JavaScript thread are used to manipulate native views.
 
-#### Who are using React Native
+#### Who are using [React Native](https://reactnative.dev)
 
 ##### Meta
 
@@ -92,7 +92,7 @@ React Native is an open source framework developed by Facebook it uses JavaScrip
 - Discord
 - Myntra
 
-#### Pros of React Native
+#### Pros of [React Native](https://reactnative.dev)
 
 - Uses Javascript and based on react framework so it is very familiar to developers who worked with web development.
 
@@ -100,7 +100,7 @@ React Native is an open source framework developed by Facebook it uses JavaScrip
 
 - Looks native on all platforms.
 
-#### Cons of React Native
+#### Cons of [React Native](https://reactnative.dev)
 
 - Very few inbuilt components.
 
@@ -108,4 +108,4 @@ React Native is an open source framework developed by Facebook it uses JavaScrip
 
 ### Conclusion
 
-React Native has released before Flutter so it has the advantage of having more time to develop and also has a bigger community compared to flutter but the flutter community is growing faster every day and is getting more and more popular among startups and multi billion dollar companies. If your app/company wants to build a app fast and want to release it to public as soon as possible then you would be better of with Flutter. But if you want to build a complex app witch looks native no mater the platform and you don't mind using lots of 3rd party libraries then you should use React Native.
+[React Native](https://reactnative.dev) has released before [Flutter](https://flutter.dev) so it has the advantage of having more time to develop and also has a bigger community compared to [Flutter](https://flutter.dev) but the [Flutter](https://flutter.dev) community is growing faster every day and is getting more and more popular among startups and multi billion dollar companies. If your app/company wants to build a app fast and want to release it to public as soon as possible then you would be better of with [Flutter](https://flutter.dev). But if you want to build a complex app witch looks native no mater the platform and you don't mind using lots of 3rd party libraries then you should use [React Native](https://reactnative.dev).

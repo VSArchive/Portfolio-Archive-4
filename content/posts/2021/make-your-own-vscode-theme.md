@@ -11,7 +11,7 @@ tags:
   - theme
 ---
 
-To make a vscode extension you first need to install nodejs and npm before you get started and also make sure you have vscode installed for obvious reasons.
+To make a [vscode](https://code.visualstudio.com) extension you first need to install nodejs and npm before you get started and also make sure you have [vscode](https://code.visualstudio.com) installed for obvious reasons.
 
 NodeJs - [https://nodejs.org/en/](https://nodejs.org/en/)
 vscode - [https://code.visualstudio.com/](https://code.visualstudio.com/)
@@ -46,7 +46,7 @@ yo code
 
 ### Edit theme
 
-- After you finished it will open the created project in vscode.
+- After you finished it will open the created project in [vscode](https://code.visualstudio.com).
 
 ![vscode](/images/2021/make-your-own-vscode-theme/theme-folder.png)
 
@@ -54,9 +54,9 @@ yo code
 
 ![vscode debug window](/images/2021/make-your-own-vscode-theme/debug-window-no-theme.png)
 
-- In vscode open the JSON file named **your theme name**-color-theme.json under the themes folder.
+- In [vscode](https://code.visualstudio.com) open the JSON file named **your theme name**-color-theme.json under the themes folder.
 
-- vscode provides a color picker when you hover around the color box in front of the hex code it makes it easy to edit the theme.
+- [vscode](https://code.visualstudio.com) provides a color picker when you hover around the color box in front of the hex code it makes it easy to edit the theme.
 
 - Edit the colors you want and save the file.
 

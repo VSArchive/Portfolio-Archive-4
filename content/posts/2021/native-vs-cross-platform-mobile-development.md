@@ -20,7 +20,7 @@ Before we talk about which way is the best or to be precise which is better for 
 
 ### Native Development
 
-Native Development refers to building applications specific to a platform by using platform-specific tools & programming languages. When it comes to mobile development we have mainly two platforms Android & IOS, for android we have Java & Kotlin as the primary programming languages, and for IOS we have Objective-C & Swift.
+Native Development refers to building applications specific to a platform by using platform-specific tools & programming languages. When it comes to mobile development we have mainly two platforms Android & IOS, for android we have Java & [Kotlin](https://kotlinlang.org) as the primary programming languages, and for IOS we have Objective-C & Swift.
 
 #### Pros of Native Development
 
@@ -38,7 +38,7 @@ Native Development refers to building applications specific to a platform by usi
 
 ### Cross-Platform Development
 
-- Cross-Platform development is making applications that work on both Android & IOS. For cross-platform development we have technologies like Flutter, React Native, and Xamarin.
+- Cross-Platform development is making applications that work on both Android & IOS. For cross-platform development we have technologies like [Flutter](https://flutter.dev), [React Native](https://reactnative.dev), and [Xamarin](https://dotnet.microsoft.com/apps/xamarin).
 
 #### Pros of Cross-Platform Development
 

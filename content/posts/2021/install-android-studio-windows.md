@@ -10,17 +10,17 @@ tags:
   - Android Studio
 ---
 
-### Download Android Studio
+### Download [Android Studio](https://developer.android.com/studio)
 
 - Go to [https://developer.android.com/studio](https://developer.android.com/studio)
 
 ![Android Studio Website](/images/2021/install-android-studio-on-windows/android-studio-website.png)
 
-- Click on the Download Android Studio button and accept the license and agreement and click Download Button.
+- Click on the Download [Android Studio](https://developer.android.com/studio) button and accept the license and agreement and click Download Button.
 
 ![Download Button](/images/2021/install-android-studio-on-windows/download-page.png)
 
-### Install Android Studio
+### Install [Android Studio](https://developer.android.com/studio)
 
 - Double click on the downloaded .exe file.
 
@@ -32,7 +32,7 @@ tags:
 
 ![Installer Dialog Finish](/images/2021/install-android-studio-on-windows/installer-dialog-finish.png)
 
-- Now the Android Studio will start automatically.
+- Now the [Android Studio](https://developer.android.com/studio) will start automatically.
 
 - Choose Do not import settings, then click on OK.
 
