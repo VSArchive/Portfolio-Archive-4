@@ -8,6 +8,7 @@ hasCJKLanguage = false # Set `true` for Chinese/Japanese/Korean languages.
 
 summaryLength = 20 # The length of a post description on a list page.
 buildFuture = true # if true, we can use future date for talks page
+enableRobotsTXT = true
 
 copyright = "&copy;{year}, All Rights Reserved"
 timeout = 10000
@@ -48,3 +49,34 @@ googleAnalytics = "G-WLKQWC1JPQ"
   category = "categories"
   tag = "tags"
   series = "series"
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      keepCSS2 = true
+      precision = 0
+    [minify.tdewolff.html]
+      keepComments = false
+      keepConditionalComments = true
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = false
+      keepWhitespace = false
+    [minify.tdewolff.js]
+      keepVarNames = false
+      precision = 0
+    [minify.tdewolff.json]
+      keepNumbers = false
+      precision = 0
+    [minify.tdewolff.svg]
+      precision = 0
+    [minify.tdewolff.xml]
+      keepWhitespace = false
