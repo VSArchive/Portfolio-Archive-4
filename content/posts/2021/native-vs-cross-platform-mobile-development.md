@@ -54,4 +54,4 @@ Native Development refers to building applications specific to a platform by usi
 
 ### Conclusion
 
-Well, there is no specific answer to which type of development you should choose it mainly depends on your application and your target audiences. If your app mainly based on using API calls and displaying that data to users or if your app doesn't do much processing of data locally it just has to work well with the backend then cross-platform is for you since you want your app to look and behave the same across the platforms. But if your app has anything to do with different sensors then native development is the way to go.
+Well, there is no specific answer to which type of development you should choose it mainly depends on your application and your target audiences. If your app is mainly based on using API calls and displaying that data to users or if your app doesn't do much processing of data locally it just has to work well with the backend then cross-platform is for you since you want your app to look and behave the same across the platforms. But if your app has anything to do with different sensors then native development is the way to go.

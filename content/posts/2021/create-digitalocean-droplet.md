@@ -29,7 +29,7 @@ This guide assumes you already have a [DigitalOcean](https://m.do.co/c/96aa4c938
 
 ![Choose Plan](/images/2021/create-digitalocean-droplet/choose-plan.png)
 
-- Then choose the region you want to create the droplet in, I am going to use Bangalore since its nearest to me.
+- Then choose the region you want to create the droplet in, I am going to use Bangalore since it’s nearest to me.
 
 ![Choose Region](/images/2021/create-digitalocean-droplet/choose-region.png)
 
@@ -41,17 +41,17 @@ This guide assumes you already have a [DigitalOcean](https://m.do.co/c/96aa4c938
 
 ![Enter Host Name](/images/2021/create-digitalocean-droplet/enter-hostname.png)
 
-- Finally click on Create Droplet.
+- Finally, click on Create Droplet.
 
 ![Create Droplet](/images/2021/create-digitalocean-droplet/create-droplet.png)
 
-- Now wait for the droplet to be created, this usually happens under a minute.
+- Now wait for the droplet to be created, this usually happens in under a minute.
 
 ![Wait](/images/2021/create-digitalocean-droplet/wait-for-creation.png)
 
 ### Connect to the droplet
 
-- Once the droplet is created, copy the IP address of the droplet and open terminal in linux or powershell/CMD in windows and use the following command to connect to the droplet.
+- Once the droplet is created, copy the IP address of the droplet and open the terminal in Linux or PowerShell/CMD in windows and use the following command to connect to the droplet.
 
 ![Copy IP](/images/2021/create-digitalocean-droplet/droplet-ready.png)
 

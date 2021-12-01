@@ -46,7 +46,7 @@ tags:
 
 ![Install Type](/images/2021/install-android-studio-on-windows/install-type-android-studio.png)
 
-- Choose theme and click Next.
+- Choose a theme and click Next.
 
 ![Select Theme](/images/2021/install-android-studio-on-windows/select-theme-android-studio.png)
 

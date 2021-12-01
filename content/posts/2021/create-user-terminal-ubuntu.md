@@ -1,5 +1,5 @@
 ---
-title: "Create a New User from terminal on Ubuntu"
+title: "Create a New User from the terminal on Ubuntu"
 
 date: 2021-11-28T14:00:00
 url: /posts/create-user-terminal-ubuntu/
@@ -13,7 +13,7 @@ tags:
 
 ### Root User
 
-Before you get started make sure you are in root user with following command.
+Before you get started make sure you are in root user with the following command.
 
 ```sh
 sudo sh

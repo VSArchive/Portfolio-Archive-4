@@ -18,7 +18,7 @@ vscode - [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 ### Install yo
 
-- After you installed npm run the following command in your terminal.
+- After you install npm run the following command in your terminal.
 
 ```sh
 npm install -g yo generator-code
