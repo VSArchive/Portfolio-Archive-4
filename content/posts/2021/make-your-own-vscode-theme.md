@@ -1,6 +1,6 @@
 ---
 title: "Make your own vscode theme from scratch"
-
+description: "To make a vscode theme you first need to install nodejs and npm before you get started. and also make sure you have vscode installed"
 date: 2021-11-26T10:00:00
 url: /posts/make-your-own-vscode-theme/
 image: /images/thumbnails/vscode.png
@@ -11,7 +11,7 @@ tags:
   - theme
 ---
 
-To make a [vscode](https://code.visualstudio.com) extension you first need to install nodejs and npm before you get started and also make sure you have [vscode](https://code.visualstudio.com) installed for obvious reasons.
+To make a [vscode](https://code.visualstudio.com) theme you first need to install nodejs and npm before you get started and also make sure you have [vscode](https://code.visualstudio.com) installed for obvious reasons.
 
 NodeJs - [https://nodejs.org/en/](https://nodejs.org/en/)
 vscode - [https://code.visualstudio.com/](https://code.visualstudio.com/)

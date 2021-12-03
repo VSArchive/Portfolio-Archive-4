@@ -1,6 +1,6 @@
 ---
 title: "Swap on Linux"
- 
+description: "Swap is a portion of the hard disk that is used by the operating system when to store temporary data when the system is running out of memory."
 date: 2021-12-01T12:00:00
 url: /posts/swap-on-linux/
 image: /images/thumbnails/ubuntu-logo.png

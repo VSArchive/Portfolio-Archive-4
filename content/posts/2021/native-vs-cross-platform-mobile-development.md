@@ -1,6 +1,6 @@
 ---
-title: "Native vs Cross-Platform Mobile Development in 2021"
-
+title: "Native vs Cross-Platform Mobile Development in 2022"
+description: "Before we talk about which way is the best or to be precise which is better for you let's talk about what is Native and Cross-Platform App development."
 date: 2021-11-25T15:00:00
 url: /posts/native-vs-cross-platform-mobile-development/
 image: /images/thumbnails/native-vs-cross-platform-mobile-development.png

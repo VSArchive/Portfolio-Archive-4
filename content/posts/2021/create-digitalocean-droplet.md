@@ -1,6 +1,6 @@
 ---
 title: "Create a DigitalOcean droplet"
-
+description: "DigitalOcean Droplets are Linux-based virtual machines (VMs) that run on top of virtualized hardware. This post will walk you through creating a droplet on DigitalOcean."
 date: 2021-11-28T12:00:00
 url: /posts/digitalocean-droplet/
 image: /images/thumbnails/digitalocean-logo.png

@@ -1,6 +1,6 @@
 ---
 title: "Recycler View in Kotlin"
-
+description: "To create a recycler view in kotlin you need three classes, an Adapter class to set data to items in the recycler view a data class to give your data a structure, and an activity or fragment class to display the view."
 date: 2021-11-25T13:00:00
 url: /posts/recycler-view-kotlin-android/
 image: /images/thumbnails/recycler-view-kotlin.png

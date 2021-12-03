@@ -1,6 +1,6 @@
 ---
-title: "Flutter VS React Native in 2021"
-
+title: "Flutter VS React Native in 2022"
+description: "If you want to make a cross platform app that works on both Android & IOS then you have mainly two options to choose from Flutter and React Native."
 date: 2021-11-25T15:00:00
 url: /posts/flutter-vs-react-native-mobile-development/
 image: /images/thumbnails/flutter-vs-react-native.png

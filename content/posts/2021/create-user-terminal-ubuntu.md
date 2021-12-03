@@ -1,6 +1,6 @@
 ---
 title: "Create a New User from the terminal on Ubuntu"
-
+description: "To create a new user from the terminal on Ubuntu follow along with this article."
 date: 2021-11-28T14:00:00
 url: /posts/create-user-terminal-ubuntu/
 image: /images/thumbnails/user-icon.png

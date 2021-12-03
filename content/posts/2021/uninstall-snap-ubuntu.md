@@ -1,6 +1,6 @@
 ---
 title: "Uninstall Snap in Ubuntu"
-
+description: "Snap is a packaging format developed by canonical to use in Ubuntu and other Linux distros. In this post, I will show you how to uninstall snap completely from your system."
 date: 2021-11-27T14:00:00
 url: /posts/uninstall-snap-ubuntu/
 image: /images/thumbnails/snapcraft-logo-bird.png
@@ -12,7 +12,7 @@ tags:
   - Ubuntu
 ---
 
-Snap is a packaging format made by canonical to use in [Ubuntu](https://ubuntu.com) and other Linux distros but there are problems with snaps as they are slow compared to native binaries and consume a lot of disk space and the server side of [snapcraft](https://snapcraft.io) is proprietary, but since it’s their own technology canonical is pushing it too much over other solutions in [Ubuntu](https://ubuntu.com), so for any of the following reasons if you want to uninstall snaps from your system just follow along.
+Snap is a packaging format developed by canonical to use in [Ubuntu](https://ubuntu.com) and other Linux distros but there are problems with snaps as they are slow compared to native binaries and consume a lot of disk space and the server side of [snapcraft](https://snapcraft.io) is proprietary, but since it’s their own technology canonical is pushing it too much over other solutions in [Ubuntu](https://ubuntu.com), so for any of the following reasons if you want to uninstall snaps from your system just follow along.
 
 ### Uninstall Snaps
 
