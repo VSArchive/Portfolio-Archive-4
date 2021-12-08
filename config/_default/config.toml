@@ -10,7 +10,7 @@ summaryLength = 20 # The length of a post description on a list page.
 buildFuture = true # if true, we can use future date for talks page
 enableRobotsTXT = true
 
-copyright = "&copy;{year}, All Rights Reserved"
+copyright = "&copy;{year}, All Rights Reserved | <a href='https://privacy.vineelsai.com/Websites/blog'>Privacy Policy</a>"
 timeout = 10000
 enableEmoji = true
 paginate = 10 # Number of items per page in paginated lists.
