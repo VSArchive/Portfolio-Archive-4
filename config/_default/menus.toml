@@ -6,7 +6,7 @@
 
 [[main]]
     name = "Portfolio"
-    url = "/portfolio"
+    url = "https://portfolio.vineelsai.com"
     hrefTargetBlank = true
     weight = 2
 
