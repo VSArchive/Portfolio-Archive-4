@@ -1,30 +1,24 @@
 [[main]]
     identifier = "home"
     name = "Home"
-    pre = "<i class='fa fa-heart'></i>"
     url = "/"
     weight = 1
+
+[[main]]
+    name = "Portfolio"
+    url = "/portfolio"
+    hrefTargetBlank = true
+    weight = 2
 
 [[main]]
     name = "Github"
     url = "https://github.com/vineelsai26"
     hrefTargetBlank = true
-    weight = 2
-
-[[main]]
-    name = "Resume"
-    url = "/resume/resume.pdf"
-    hrefTargetBlank = true
     weight = 3
 
-[[main]]
-    name = "Contact"
-    url = "/contact"
-    hrefTargetBlank = true
-    weight = 4
 
 [[main]]
     name = "RSS"
     url = "/index.xml"
     hrefTargetBlank = true
-    weight = 5
+    weight = 4
