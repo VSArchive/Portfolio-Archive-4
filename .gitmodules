@@ -1,4 +1,4 @@
-[submodule "themes/zzo"]
-	path = themes/zzo
-	url = https://github.com/zzossig/hugo-theme-zzo.git
-	branch = master
+[submodule "themes/zzo-lite"]
+	path = themes/zzo-lite
+	url = https://github.com/vineelsai26/zzo-lite
+	branch = main
