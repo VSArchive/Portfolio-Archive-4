@@ -4,7 +4,7 @@ logo = true # Logo that appears in the site navigation bar.
 description = "I am an undergraduate student at IIIT Kalyani pursuing Bachelors in Computer Science and Engineering" # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
-useFaviconGenerator = true # https://www.favicon-generator.org/
+useFaviconGenerator = false # https://www.favicon-generator.org/
 meta_image = "/logo.png"
 
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "page"] # not allowed page types in home page. type can be set in front matter or default to folder name.
@@ -107,6 +107,10 @@ busuanziPagePV = true
 updatePeriod = "daily" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
 updateFrequency = ""
 fullContents = true
+
+[adsense]
+  disableAdsense = false
+  adsenseClientId = "ca-pub-1389292252312215"
 
 # comment
 enableComment = true

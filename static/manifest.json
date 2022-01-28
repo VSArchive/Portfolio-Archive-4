@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Vineel Sai Blog",
+  "short_name": "Vineel Sai",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "description": "I am an undergraduate student at IIIT Kalyani pursuing Bachelors in Computer Science and Engineering",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png"
+    }
+  ],
+  "background": {
+    "persistent": false
+  },
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone"
+}

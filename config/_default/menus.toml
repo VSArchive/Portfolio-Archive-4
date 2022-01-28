@@ -5,20 +5,25 @@
     weight = 1
 
 [[main]]
-    name = "Portfolio"
-    url = "https://portfolio.vineelsai.com"
+    name = "Github"
+    url = "https://github.com/vineelsai26"
     hrefTargetBlank = true
     weight = 2
 
 [[main]]
-    name = "Github"
-    url = "https://github.com/vineelsai26"
+    name = "Portfolio"
+    url = "https://portfolio.vineelsai.com"
     hrefTargetBlank = true
     weight = 3
 
+[[main]]
+    name = "Resume"
+    url = "/resume/resume.pdf"
+    hrefTargetBlank = true
+    weight = 4
 
 [[main]]
     name = "RSS"
     url = "/index.xml"
     hrefTargetBlank = true
-    weight = 4
+    weight = 5
