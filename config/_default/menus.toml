@@ -12,7 +12,7 @@
 
 [[main]]
     name = "Portfolio"
-    url = "https://portfolio.vineelsai.com"
+    url = "https://vineelsai.com/portfolio"
     hrefTargetBlank = true
     weight = 3
 

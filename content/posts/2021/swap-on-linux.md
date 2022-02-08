@@ -3,7 +3,7 @@ title: "Swap on Linux"
 description: "Swap is a portion of the hard disk that is used by the operating system when to store temporary data when the system is running out of memory."
 date: 2021-12-01T12:00:00
 url: /posts/swap-on-linux/
-image: /images/thumbnails/ubuntu-logo.png
+image: /images/2021/thumbnails/ubuntu-logo.png
 categories:
   - Linux
 tags:
@@ -21,7 +21,7 @@ Swap is a portion of the hard disk that is used by the operating system when to 
 sudo swapon --show
 ```
 
-![swapon show](/images/2021/swap-on-linux/swapon-show.png)
+![swapon show](/images/2021/posts/swap-on-linux/swapon-show.png)
 
 - If it returns nothing, then there is no swap on your system and you can create one even if you have swap and you want to increase the size of the swap you can follow along and copy paste the commands below this doesn't matter much.
 
@@ -33,7 +33,7 @@ sudo swapon --show
 sudo fallocate -l 1G /swapfile
 ```
 
-![fallocate](/images/2021/swap-on-linux/create-swap.png)
+![fallocate](/images/2021/posts/swap-on-linux/create-swap.png)
 
 - You can replace the 1G with any size you want, it is recommended to use the size of your RAM if you have 8GB or less ram and half of your RAM if you have more than 8GB.
 
@@ -45,7 +45,7 @@ sudo fallocate -l 1G /swapfile
 sudo chmod 600 /swapfile
 ```
 
-![chmod](/images/2021/swap-on-linux/enable-swap.png)
+![chmod](/images/2021/posts/swap-on-linux/enable-swap.png)
 
 - Then run the following command to mark the file as swap.
 
@@ -53,7 +53,7 @@ sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 ```
 
-![mkswap](/images/2021/swap-on-linux/mkswap.png)
+![mkswap](/images/2021/posts/swap-on-linux/mkswap.png)
 
 - Finally, run the following command to enable the swap file.
 
@@ -61,7 +61,7 @@ sudo mkswap /swapfile
 sudo swapon /swapfile
 ```
 
-![swapon](/images/2021/swap-on-linux/swapon.png)
+![swapon](/images/2021/posts/swap-on-linux/swapon.png)
 
 - Now run the swapon --show command again to see if the swap file is created and enabled successfully.
 
@@ -69,7 +69,7 @@ sudo swapon /swapfile
 sudo swapon --show
 ```
 
-![swapon show](/images/2021/swap-on-linux/swapon-show-swap.png)
+![swapon show](/images/2021/posts/swap-on-linux/swapon-show-swap.png)
 
 ### Making swap permanent
 
@@ -79,7 +79,7 @@ sudo swapon --show
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 ```
 
-![show swappiness](/images/2021/swap-on-linux/swappiness-60.png)
+![show swappiness](/images/2021/posts/swap-on-linux/swappiness-60.png)
 
 ### Tuning the swappiness
 
@@ -91,7 +91,7 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 cat /proc/sys/vm/swappiness
 ```
 
-![show swappiness](/images/2021/swap-on-linux/swappiness-60.png)
+![show swappiness](/images/2021/posts/swap-on-linux/swappiness-60.png)
 
 - It is not bad if you have a high speed SSD or SSD with a lot of cache, but if you have a slow HDD then it’s better to set the swappiness closer to 0(but not 0).
 
@@ -101,7 +101,7 @@ cat /proc/sys/vm/swappiness
 sudo sysctl vm.swappiness=10
 ```
 
-![set swappiness](/images/2021/swap-on-linux/vm-swappiness.png)
+![set swappiness](/images/2021/posts/swap-on-linux/vm-swappiness.png)
 
 - And Edit the file /etc/sysctl.conf and add the following line at the bottom to make it persistent across reboots.
 
@@ -113,6 +113,6 @@ sudo nano /etc/sysctl.conf
 vm.swappiness=10
 ```
 
-![edit sysctl](/images/2021/swap-on-linux/edit-sysctl.png)
+![edit sysctl](/images/2021/posts/swap-on-linux/edit-sysctl.png)
 
 - Press CTRL+X to exit nano and press Y to save the changes.

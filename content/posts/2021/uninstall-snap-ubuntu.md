@@ -3,7 +3,7 @@ title: "Uninstall Snap in Ubuntu"
 description: "Snap is a packaging format developed by canonical to use in Ubuntu and other Linux distros. In this post, I will show you how to uninstall snap completely from your system."
 date: 2021-11-27T14:00:00
 url: /posts/uninstall-snap-ubuntu/
-image: /images/thumbnails/snapcraft-logo-bird.png
+image: /images/2021/thumbnails/snapcraft-logo-bird.png
 categories:
   - Linux
 tags:
@@ -22,7 +22,7 @@ Snap is a packaging format developed by canonical to use in [Ubuntu](https://ubu
 snap list
 ```
 
-![snap list](/images/2021/uninstall-snap-ubuntu/snap-list.png)
+![snap list](/images/2021/posts/uninstall-snap-ubuntu/snap-list.png)
 
 - Then remove snaps one by one by using the following command
 
@@ -30,7 +30,7 @@ snap list
 sudo snap remove --purge snap-name
 ```
 
-![snap remove](/images/2021/uninstall-snap-ubuntu/snap-remove.png)
+![snap remove](/images/2021/posts/uninstall-snap-ubuntu/snap-remove.png)
 
 ### Uninstall snapd
 
@@ -40,7 +40,7 @@ sudo snap remove --purge snap-name
 sudo apt remove --purge snapd
 ```
 
-![remove snapd](/images/2021/uninstall-snap-ubuntu/remove-snapd.png)
+![remove snapd](/images/2021/posts/uninstall-snap-ubuntu/remove-snapd.png)
 
 ### Delete snap cache
 
@@ -52,7 +52,7 @@ rm -fr ~/snap # for home user
 sudo rm -fr ~/snap # for root user
 ```
 
-![remove snap cache](/images/2021/uninstall-snap-ubuntu/remove-snap-cache.png)
+![remove snap cache](/images/2021/posts/uninstall-snap-ubuntu/remove-snap-cache.png)
 
 ### Hold snap package
 
@@ -62,4 +62,4 @@ sudo rm -fr ~/snap # for root user
 sudo apt-mark hold snapd
 ```
 
-![hold snap](/images/2021/uninstall-snap-ubuntu/hold-snap.png)
+![hold snap](/images/2021/posts/uninstall-snap-ubuntu/hold-snap.png)
