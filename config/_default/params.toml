@@ -1,5 +1,5 @@
 logoText = "Vineel Sai Blog" # Logo text that appears in the site navigation bar.
-logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
+logoType = "short" # long, short -> short: square shape includes logo text, long: rectangle shape not includes logo text
 logo = true # Logo that appears in the site navigation bar.
 description = "I am an undergraduate student at IIIT Kalyani pursuing Bachelors in Computer Science and Engineering" # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
@@ -20,7 +20,7 @@ minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 
 # appbar
 enableAppbarSearchIcon = true
-enableAppbarLangIcon = false
+enableAppbarLangIcon = true
 
 # header
 homeHeaderType = "text" # text, img, slide, typewriter
@@ -28,9 +28,6 @@ hideHomeHeaderWhenMobile = false
 
 # menu
 showMobileMenuTerms = ["categories"]
-
-# navbar
-enableThemeChange = true # site color theme
 
 # search
 enableSearch = true
@@ -62,10 +59,10 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
-myname = "Vineel Sai"
+myName = "Vineel Sai"
 email = "mail@vineelsai.com"
 whoami = "Vineel Sai"
-bioImageUrl = "images/profile.jpg" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
+bioImageUrl = "images/profile.jpg" # image url
 useGravatar = true # we use this option highest priority
 location = "India"
 organization = ""
@@ -97,69 +94,30 @@ showSocialLinks = true # email, facebook, twitter ...
 
 # service
 googleTagManager = "" # GTM-XXXXXX
-baiduAnalytics = ""
-enableBusuanzi = false
-busuanziSiteUV = true
-busuanziSitePV = true
-busuanziPagePV = true
 
 # rss
 updatePeriod = "daily" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
 updateFrequency = ""
 fullContents = true
 
-[adsense]
-  disableAdsense = false
-  adsenseClientId = "ca-pub-1389292252312215"
+[AdSense]
+  disableAdSense = true
+  adSenseClientId = "ca-pub-1389292252312215"
 
 # comment
 enableComment = true
-disqus_shortname = "blog-vs"
-commento = false
+disqus_shortname = ""
 
-[gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
-
-[utterances]       # https://utteranc.es/
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  message = ""      # Optional
-  link = ""         # Optional
+[telegram]
+  enable = true
+  siteId = "svK3g1PN"
+  dataLimit = 5
 
 [gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
   owner = ""              # Your GitHub ID
   repo = ""               # The repo to store comments
   clientId = ""           # Your client ID
   clientSecret = ""       # Your client secret
-
-# Valine.
-# You can get your appid and appkey from https://leancloud.cn
-# more info please open https://valine.js.org
-[valine]
-  enable = false
-  appId = '你的appId'
-  appKey = '你的appKey'
-  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-  verify = false # Verification code
-  avatar = 'mm' 
-  placeholder = '说点什么吧...'
-  visitor = false
-
-[changyan]
-  changyanAppid = ""        # Changyan app id             # 畅言
-  changyanAppkey = ""       # Changyan app key
-
-[livere]
-  livereUID = ""            # LiveRe UID                  # 来必力
-
-# Isso: https://posativ.org/isso/
-[isso]
-  enable = false
-  scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
-  dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions] # if set, social icons will show up.
   phone = ""
@@ -213,3 +171,7 @@ commento = false
   name = "twitter"
 [[share]]
   name = "linkedin"
+[[share]]
+  name = "whatsapp"
+[[share]]
+  name = "telegram"
