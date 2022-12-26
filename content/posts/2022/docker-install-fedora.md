@@ -14,7 +14,7 @@ tags:
 
 ![docker fedora](/images/2022/thumbnails/docker-fedora.png)
 
-[Docker](https://www.docker.com/) is an open platform for developing, shipping, and running applications. [Docker](https://www.docker.com/) enables you to separate your applications from your infrastructure so you can deliver software quickly. With [Docker](https://www.docker.com/), you can manage your infrastructure in the same ways you manage your applications. In the following article you will know how to install docker in [Fedora](https://getfedora.org/)
+[Docker](https://www.docker.com/) is an open platform for developing, shipping, and running applications. [Docker](https://www.docker.com/) enables you to separate your applications from your infrastructure so you can deliver software quickly. With [Docker](https://www.docker.com/), you can manage your infrastructure in the same ways you manage your applications. In the following article, you will know how to install docker in [Fedora](https://getfedora.org/)
 
 ## Prerequisites
 
@@ -58,7 +58,7 @@ sudo usermod -aG docker $USER
 
 ## Other Operating Systems
 
-- If you want to install Docker in other linux distributions checkout out the following links
+- If you want to install Docker in other linux distributions check out the following links
 
 - For [Debian](https://www.debian.org/) - [Install Docker in Debian Linux](/posts/docker-install-debian)
 - For [Ubuntu](https://ubuntu.com/) - [Install Docker in Ubuntu Linux](/posts/docker-install-ubuntu)
